@@ -2,7 +2,7 @@
     list-style-type: none;
 }
 .masthead{
-    background-image: url('/img/villalobos_kelly_portrait.jpg');
+    background-image: url('img/villalobos_kelly_portrait.jpg');
     height: 400px;
     width: 100%;
 }
