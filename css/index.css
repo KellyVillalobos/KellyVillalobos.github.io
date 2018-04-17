@@ -1,13 +1,186 @@
-#ul_nav{
+#ul_nav {
     list-style-type: none;
 }
-.masthead{
-    background-image: url('img/villalobos_kelly_portrait.jpg');
-    height: 400px;
+
+.masthead {
+    background-image: url("../img/masthead.jpg");
+    background-position: 50% .5px;
+    background-size: cover;
+    background-color: #506171;
+    height: 300px;
     width: 100%;
 }
 
+#tint {
+    background-color: rgba(80, 97, 113, .65);
+    height: 300px;
+    width: 100%;
+}
 
+#logo > img {
+    width: 108.5px;
+    height: 93.5px;
+
+}
+
+
+#logo {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    bottom: 18%;
+}
+
+h1 {
+    font-family: "acumin-pro-condensed", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-family: "acumin-pro-condensed", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    text-align: center;
+}
+
+p {
+    font-family: "acumin-pro-condensed", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.nav-link {
+    font-family: "acumin-pro-condensed", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: white !important;
+
+}
+#braces {
+    display: none;
+    position: absolute;
+    width: 72.3px;
+    height: 41px;
+    right: -79%;
+    margin-top: 70%;
+}
+
+#nav-icon3{
+    display:none;
+}
+button:focus{
+    outline: 0;
+
+}
+
+@media (max-width: 767.98px) {
+
+
+button:focus{
+    outline: 0;
+
+}
+
+    #braces{
+        display: block;
+        position: center;
+        width: 72.3px;
+        height: 41px;
+        right: -72%;
+        margin-top: -71%;
+
+
+
+    }
+
+    #nav-icon3 {
+        background-color: transparent;
+        border: transparent;
+        display: block;
+        width: 30px;
+        height: 45px;
+        position: relative;
+        margin: 8px auto;
+        left: 35%;
+        margin-top: 10px;
+
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        cursor: pointer;
+    }
+
+    #nav-icon3 span {
+
+
+        display: block;
+        position: absolute;
+        height: 6px;
+        width: 100%;
+        background: #231f20;
+        opacity: 1;
+        left: 0px;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+    }
+
+    #nav-icon3 span:nth-child(1) {
+        top: 7px;
+    }
+
+    #nav-icon3 span:nth-child(2), #nav-icon3 span:nth-child(3) {
+        top: 17px;
+    }
+
+    #nav-icon3 span:nth-child(4) {
+        top: 28px;
+    }
+
+    #nav-icon3.open span:nth-child(1) {
+        top: 18px;
+        width: 0%;
+        left: 50%;
+    }
+
+    #nav-icon3.open span:nth-child(2) {
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    #nav-icon3.open span:nth-child(3) {
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+    #nav-icon3.open span:nth-child(4) {
+        top: 18px;
+        width: 0%;
+        left: 50%;
+    }
+
+        /*#ul_nav{*/
+        /*margin-top: -30px;*/
+        /*}*/
+
+}
 
 
 
