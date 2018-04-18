@@ -112,7 +112,7 @@ button:focus {
         position: center;
         width: 72.3px;
         height: 41px;
-        right: -62%;
+        right: -72%;
         margin-top: -71%;
 
     }
@@ -127,7 +127,6 @@ button:focus {
         margin: 8px auto;
         left: 35%;
         margin-top: 10px;
-        margin-bottom: ;
 
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
