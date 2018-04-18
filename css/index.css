@@ -13,11 +13,16 @@ body{
     background-color: #272733;
     height: 50%;
 }
+#brand{
+    width: 36.16px;
+    height: 31.76px;
+
+}
 
 .masthead {
     background-image: url("../img/masthead.jpg");
     background-position: 50% .5px;
-    background-size: cover;
+    background-size: contain;
     background-color: #506171;
     height: 300px;
     width: 100%;
@@ -30,16 +35,14 @@ body{
 }
 
 #logo > img {
-    width: 108.5px;
-    height: 93.5px;
+    display: none;
+
 
 }
 
 #logo {
-    position: relative;
-    margin: auto;
-    text-align: center;
-    bottom: 18%;
+    display: none;
+
 }
 
 h1 {
@@ -124,6 +127,7 @@ button:focus {
         margin: 8px auto;
         left: 35%;
         margin-top: 10px;
+        margin-bottom: ;
 
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
@@ -192,6 +196,29 @@ button:focus {
         width: 0%;
         left: 50%;
     }
+    #logo > img {
+        display: inline;
+        width: 108.5px;
+        height: 93.5px;
+
+    }
+
+    #logo {
+        display: block;
+        position: relative;
+        margin: auto;
+        text-align: center;
+        bottom: 18%;
+    }
+
+    #brand {
+        display: none;
+    }
+    .masthead{
+        background-size: cover;
+        background-image: url('');
+    }
+
 
 
 
