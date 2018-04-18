@@ -20,9 +20,9 @@ body{
 }
 
 .masthead {
-    background-image: url("../img/masthead.jpg");
+    background-image: url("../img/masthead-lg.jpg");
     background-position: 50% .5px;
-    background-size: contain;
+    background-size: cover;
     background-color: #506171;
     height: 300px;
     width: 100%;
@@ -112,7 +112,7 @@ button:focus {
         position: center;
         width: 72.3px;
         height: 41px;
-        right: -72%;
+        right: -62%;
         margin-top: -71%;
 
     }
@@ -216,7 +216,8 @@ button:focus {
     }
     .masthead{
         background-size: cover;
-        background-image: url('');
+        background-image: url('../img/masthead.jpg');
+
     }
 
 
