@@ -69,7 +69,7 @@ p {
     font-family: "acumin-pro-condensed", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16 px;
     color: white !important;
 
 }
@@ -218,6 +218,13 @@ button:focus {
         background-image: url('../img/masthead.jpg');
 
     }
+    .social{
+        width: 42.6;
+        height: 42.6;
+
+
+
+    }
 
 
 
@@ -228,6 +235,13 @@ button:focus {
 
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+
+    #logo > img {
+        display: none;
 
 
+    }
+
+}
 
