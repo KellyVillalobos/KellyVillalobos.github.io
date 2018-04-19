@@ -1,11 +1,12 @@
 #ul_nav {
     list-style-type: none;
 }
-body{
+
+body {
     background-color: #e3e2e0 !important;
 }
 
-.vertical-line{
+.vertical-line {
     display: block;
     position: absolute;
     width: 4px;
@@ -13,7 +14,8 @@ body{
     background-color: #272733;
     height: 50%;
 }
-#brand{
+
+#brand {
     width: 36.16px;
     height: 31.76px;
 
@@ -36,13 +38,10 @@ body{
 
 #logo > img {
     display: none;
-
-
 }
 
 #logo {
     display: none;
-
 }
 
 h1 {
@@ -62,16 +61,14 @@ p {
     font-family: "acumin-pro-condensed", sans-serif;
     font-style: normal;
     font-weight: 400;
-
 }
 
 .nav-link {
     font-family: "acumin-pro-condensed", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16 px;
+    font-size: 16px;
     color: white !important;
-
 }
 
 #braces {
@@ -89,8 +86,13 @@ p {
 
 button:focus {
     outline: 0;
-
 }
+
+.contact {
+    max-width: 50%;
+}
+
+/*<---Media query for small devices--->*/
 
 @media (max-width: 767.98px) {
 
@@ -98,7 +100,8 @@ button:focus {
         outline: 0;
 
     }
-    .vertical-line{
+
+    .vertical-line {
         display: none;
         position: absolute;
         width: 4px;
@@ -117,6 +120,7 @@ button:focus {
 
     }
 
+    /*<---Animated hamburger icon starts here---->*/
     #nav-icon3 {
         background-color: transparent;
         border: transparent;
@@ -195,6 +199,8 @@ button:focus {
         width: 0%;
         left: 50%;
     }
+
+    /*<---Animated hamburger icon ends here--->*/
     #logo > img {
         display: inline;
         width: 108.5px;
@@ -213,35 +219,35 @@ button:focus {
     #brand {
         display: none;
     }
-    .masthead{
+
+    .masthead {
         background-size: cover;
         background-image: url('../img/masthead.jpg');
 
     }
-    .social{
+
+    .social {
         width: 42.6;
         height: 42.6;
 
-
-
     }
 
-
-
-
-    /*#ul_nav{*/
-    /*margin-top: -30px;*/
-    /*}*/
-
+    .contact {
+        max-width: 75%;
+    }
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+/*<---Media query for landscape--->*/
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
 
     #logo > img {
         display: none;
 
-
     }
 
+    .contact {
+        margin-top: 4rem;
+    }
 }
 
