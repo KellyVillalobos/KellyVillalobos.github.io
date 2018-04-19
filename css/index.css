@@ -1,6 +1,17 @@
 #ul_nav {
     list-style-type: none;
 }
+.nav-item{
+    color: white;
+}
+a:hover{
+    color: #272733;
+}
+a:active{
+    color: #272733;
+}
+
+
 
 body {
     background-color: #e3e2e0 !important;
@@ -16,8 +27,9 @@ body {
 }
 
 #brand {
-    width: 36.16px;
-    height: 31.76px;
+    width: 55.16px;
+    height: 50.76px;
+
 
 }
 
@@ -68,7 +80,7 @@ p {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    color: white !important;
+    color: white;
 }
 
 #braces {
@@ -90,6 +102,9 @@ button:focus {
 
 .contact {
     max-width: 50%;
+}
+.navbar{
+    padding-top: 30px;
 }
 
 /*<---Media query for small devices--->*/
@@ -234,6 +249,9 @@ button:focus {
 
     .contact {
         max-width: 75%;
+    }
+    .navbar{
+        padding-top: 0;
     }
 }
 
