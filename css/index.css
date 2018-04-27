@@ -1,6 +1,7 @@
 #ul_nav {
     list-style-type: none;
 }
+
 .nav-item{
     color: white;
 }
@@ -248,7 +249,7 @@ button:focus {
     }
 
     .contact {
-        max-width: 75%;
+        max-width: 85%;
     }
     .navbar{
         padding-top: 0;
