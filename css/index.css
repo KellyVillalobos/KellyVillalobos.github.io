@@ -117,6 +117,10 @@ button:focus {
     text-align: center;
 }
 
+.email {
+    max-width: 65%;
+}
+
 #message {
     background-color: transparent;
 }
@@ -144,7 +148,7 @@ button:focus {
 /*}*/
 
 .get-in-touch {
-    max-width: 650px;
+    width: 100%;
     position: relative;
     margin: 20rem auto 0;
     -webkit-transform: translateY(-50%);
@@ -166,6 +170,7 @@ button:focus {
 .contact-form .form-field {
     position: relative;
     margin: 32px 0;
+
 }
 
 .contact-form .input-text {
@@ -372,6 +377,10 @@ button:focus {
     .get-in-touch .title {
         font-size: 35px;
     }
+    .email {
+        max-width: 100%;
+    }
+
 }
 
 /*<---Media query for landscape--->*/
